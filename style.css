@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
-
 * {
     margin: 0;
     padding: 0;
@@ -7,9 +6,9 @@
 }
 
 .container {
-    background-image: url("./assests/bg.jpg");
-    background-color: #7754f8;
+    background-image: linear-gradient(#9febda, #ffff);
     background-size: cover;
+    background-position: center;
     font-family: 'Roboto Mono', sans-serif;
     display: flex;
     flex-direction: column;
@@ -23,7 +22,7 @@
 
 .logo {
     font-size: 5em;
-    color: #FECB00;
+    color: #01101460;
     width: 400px;
     text-align: center;
 }
@@ -47,7 +46,7 @@
 }
 
 h1 {
-    color: white;
+    color: rgb(10, 10, 10);
     text-align: center;
     margin: 20px;
 }
@@ -61,7 +60,7 @@ input {
 }
 
 #lives-text {
-    color: white;
+    color: rgb(8, 8, 8);
 }
 
 #message {
